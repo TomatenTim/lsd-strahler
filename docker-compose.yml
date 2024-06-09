@@ -1,0 +1,8 @@
+version: "2.1"
+services:
+  app:
+    build: .
+    container_name: lsd-strahler
+    restart: unless-stopped
+    ports:
+      - 3000:3000
