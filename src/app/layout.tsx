@@ -6,8 +6,8 @@ import config from "@/config";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const appName = 'LSD-Straler';
-const description = 'LSD-Straler';
+const appName = 'LSD-Strahler';
+const description = 'LSD-Strahler';
 const url = config.url;
 
 export const metadata: Metadata = {
