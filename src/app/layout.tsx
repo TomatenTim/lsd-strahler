@@ -2,12 +2,13 @@ import ThemeProvider from "@/components/ThemeProvider";
 import { CssBaseline } from "@mui/material";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import config from "@/config";
 
 const inter = Inter({ subsets: ["latin"] });
 
 const appName = 'LSD-Straler';
 const description = 'LSD-Straler';
-const url = 'https://lsd.nyaaa.de';
+const url = config.url;
 
 export const metadata: Metadata = {
   title: appName,

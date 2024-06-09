@@ -4,5 +4,7 @@ services:
     build: .
     container_name: lsd-strahler
     restart: unless-stopped
+    environment:
+      - URL=https://example.com # URL where the app is running
     ports:
       - 3000:3000
