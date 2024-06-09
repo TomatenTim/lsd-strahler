@@ -1,0 +1,21 @@
+{
+    "id": "de.nyaaa.lsd",
+    "name": "LSD Straler",
+    "short_name": "LSD Straler",
+    "icons": [
+        {
+            "src": "/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#3c013d",
+    "background_color": "#3c013d",
+    "display": "standalone",
+    "start_url": "/"
+}
