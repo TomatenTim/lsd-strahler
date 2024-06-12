@@ -10,6 +10,7 @@ export default function Umami() {
 
   return (
     <Script
+      id="umami"
       strategy="afterInteractive"
       src={config.umami.script} 
       data-website-id={config.umami.websiteID}
