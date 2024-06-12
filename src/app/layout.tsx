@@ -3,6 +3,7 @@ import { CssBaseline } from "@mui/material";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import config from "@/config";
+import Umami from "@/components/Umami";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -63,7 +64,7 @@ export const metadata: Metadata = {
   },
   // link: [
   //   { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500' }
-  // ]
+  // ],
 };
 
 export default function RootLayout({
@@ -73,6 +74,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Umami />
       <body className={inter.className}>
         <ThemeProvider>
           <CssBaseline />
