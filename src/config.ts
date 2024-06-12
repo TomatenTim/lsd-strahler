@@ -1,11 +1,11 @@
 
 const config = {
 
-  url: process.env.URL,
+  url: process.env.NEXT_PUBLIC_URL,
 
   umami: {
-    script: process.env.UMAMI_SCRIPT || null,
-    websiteID: process.env.UMAMI_WEBSITEID || null,
+    script: process.env.NEXT_PUBLIC_UMAMI_SCRIPT || null,
+    websiteID: process.env.NEXT_PUBLIC_UMAMI_WEBSITEID || null,
   }
 
 }
