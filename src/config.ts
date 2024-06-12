@@ -1,11 +1,11 @@
 
 const config = {
 
-  url: process.env.NEXT_PUBLIC_URL,
+  url: 'https://lsd.nyaaa.de',
 
   umami: {
-    script: process.env.NEXT_PUBLIC_UMAMI_SCRIPT || null,
-    websiteID: process.env.NEXT_PUBLIC_UMAMI_WEBSITEID || null,
+    script: 'https://lsd.nyaaa.de/a/script.js',
+    websiteID: 'a7a76bd2-4f79-4473-a126-201cf81a401f',
   }
 
 }
