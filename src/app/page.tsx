@@ -14,7 +14,7 @@ export default function Home() {
       flexDirection: 'column',
       minHeight: '100vh'
     }}>
-      <Typography variant='h1' sx={{ textAlign: 'center' }}>LSD Strahler</Typography>
+      <Typography variant='h1' sx={{ textAlign: 'center' }}>LSD Blaster</Typography>
       <Image src={appLogo} alt='Logo'/>
       <StartButton />
     </Box>

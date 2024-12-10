@@ -7,8 +7,8 @@ import Umami from "@/components/Umami";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const appName = 'LSD-Strahler';
-const description = 'LSD-Strahler';
+const appName = 'LSD-Blaster';
+const description = 'LSD-Blaster';
 const url = config.url;
 
 export const metadata: Metadata = {
